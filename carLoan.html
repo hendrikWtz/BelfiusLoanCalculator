@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/main.js"></script>
+    </head>
+    <body id = login onload="loadNumberFunction()" >
+
+    <img id = "belfiusLogo" src="images/Belfius_RT_Logo_H_neg_RGB.png" alt="Belfius logo">
+
+
+
+      <div id= "simulatieStart">
+          <div id="carloanw">
+        <div id="letOp">
+          <h4 >Eco autolening</h4>
+    <p id = pkb >Kredietbedrag</p>
+
+<input type="text" id="hoeveelEuro" onchange="Calculate()"  >
+            <label id = eulbl for="-3">EUR</label><br><br>
+
+             <p id = pkb >Looptijd lening </p>
+
+<input type="text" id="hoeveelMaanden" onchange="Calculate()" value = "12" >
+            <label id = eulbl for="-3">Month's</label><br><br>
+
+
+        </div>
+
+           <div id="keuze3">
+
+    <p id = pkb >Maandelijkse terugbetaling</p>
+    <p id = "mlBedrag" >0</p>
+    <br>
+     <p id = pkb >Vaste debetrentevoet</p>
+
+    <div id="percentBlok"><p id = "interest" >3.29</p> <p>%</p>  </div>
+    <br>
+     <p id = pkb >Totaal terug te betalen bedrag</p>
+
+    <p id = "ttBedrag" >0</p>
+    <br>
+     <button id =rqButton onclick="verzendenFunction()">Aanvragen</button>
+
+ </div>
+
+
+        </div>
+          <div id ="Verzonden">
+               <h4 id="req">Lening aangevraagd</h4>
+
+               </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/main.js"></script>
+    </head>
+    <body id = login>
+
+    <img id = "belfiusLogo" src="images/Belfius_RT_Logo_H_neg_RGB.png" alt="Belfius logo">
+
+
+        <div id = simulatiewrap>
+
+      <div id= "simulatieStart">
+        <div id="letOp">
+          <h4 >Let op, geld lenen kost ook geld</h4>
+            <div id= "WB">
+            <button id="buttonWB" onclick="wbFunction()">Wettelijke bepalingen</button>
+                </div>
+            <div id="BV">
+            <button id="buttonBV" onclick="bvFunction()">bevestigen</button>
+                </div>
+          </div>
+        </div>
+
+            <div id = "hide1">
+          <div id= "simulatieStart">
+        <div id="keuze1">
+          <h4 >Wil u een nieuwe of tweedehandsauto kopen?</h4>
+
+          <input type="radio" id="nieuwButton" name="nOft" value="Nieuw">
+<label for="Nieuw">Nieuw</label>
+            <br>
+             <br>
+<input type="radio" id="-3" name="nOft" value="-3">
+
+<label for="-3">Auto van minder dan 3 jaar oud</label><br><br>
+<input type="radio" id="+3" name="nOft" value="+3">
+<label for="+3">Auto van meer dan 3 jaar oud</label><br><br>
+          </div>
+        </div>
+
+        <div id= "simulatieStart">
+        <div id="keuze2">
+          <h4 >Voor welk type auto wil u lenen?</h4>
+
+    <input type="radio" id="nieuwButton" name="tA" value="Nieuw">
+<label for="Nieuw">Diesel- of benzineauto</label>
+            <br>
+             <br>
+<input type="radio" id="-3" name="tA" value="-3">
+
+<label for="-3">plug-in hybrid /Elecktrische auto</label><br><br>
+<input type="radio" id="+3" name="tA" value="+3">
+<label for="+3">auto met lpg-installatie</label><br><br>
+<input type="radio" id="+3" name="tA" value="+3">
+<label for="+3">Hybride (exl . plug-in) / co2 zuinige auto</label><br><br>
+          </div>
+        </div>
+
+          <div id= "simulatieStart">
+        <div id="keuze2">
+          <h4 >Hoeveel wil u lenen?</h4>
+
+   <p>Max. 120% van de aankoopprijs naargelang het type en ouderdom van de auto</p>
+            <br>
+             <br>
+<input type="text" id="hoeveelEuro" >
+            <label for="-3">EUR</label><br><br>
+
+
+
+              <div id = cBut onclick="continueFunction()">
+<button id = continue>Continue</button>
+            </div>
+
+          </div>
+        </div>
+                </div>
+        </div>
+
+    </body>
+</html>

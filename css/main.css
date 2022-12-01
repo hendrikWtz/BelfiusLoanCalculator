@@ -1,0 +1,262 @@
+
+@font-face {
+    font-family: ._Belfius21-Medium;
+    src: url("belfius") format("opentype");
+}
+
+
+
+#buttonWB{
+    	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+      text-decoration: underline;
+}
+
+
+#buttonBV{
+
+
+     background-color:#d1184d;
+    color:white;
+     border:none;
+outline: none;
+   border-radius: 4px;
+    margin-bottom: 4%;
+}
+
+::placeholder,button{
+    font-family: Arial, sans-serif
+}
+
+#registerButton:hover {background-color: #ff3770;color: white}
+#loginButton:hover {background-color: #ff3770;color: white}
+#buttonBV:hover  {background-color: #ff3770;color: white}
+#rqButton:hover  {background-color: #ff3770;color: white}
+#buttonWB:hover  {color: grey}
+
+#percentBlok{
+    display:inline-flex;;
+}
+
+html {
+     font-family: belfiusBold, Arial, sans-serif;
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+     margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+
+#loginIntro{
+    margin-top:2%;
+    color:white;
+    text-align: center;
+    font-family: belfiusBold, Arial, sans-serif;
+    font-size: 200%;
+    font-weight: lighter;
+
+}
+
+ #keuze1 > label {
+               border: 0.5px solid black!important;
+     border-radius: 16px;
+     width:60%;
+     padding:0.5%;
+     margin-bottom:5%;
+        }
+
+ #keuze2 > label {
+               border: 0.5px solid black!important;
+     border-radius: 16px;
+     width:60%;
+     padding:0.5%;
+     margin-bottom:5%;
+        }
+#keuze2{
+        padding-left: 3%;
+    padding-top: 1%;
+    margin-bottom:5%;
+}
+
+#belfiusLogo{
+   padding-left: 40%;
+   padding-top: 8%;
+   width:20%;
+}
+
+#divButton1{
+
+   padding-top: 1%;
+    margin-top:3%;
+
+}
+#WB,#BV{
+    margin-bottom: 3%;
+}
+}
+#divButton2{
+
+   padding-top: 1%;
+
+}
+
+#letOp{
+    padding-left: 3%;
+    padding-top:1%;
+}
+#Verzonden{
+    margin-left:2%;
+    display:none;
+}
+
+#keuze1{
+    padding-left: 3%;
+    padding-top:1%;
+}
+
+#keuze3{
+    margin-top: 2%;
+    padding-left: 3%;
+    padding-top:1%;
+}
+
+
+
+h4{
+    color: #C30045;
+}
+#simulatieStart{
+    background-color: white;
+    width:70%;
+    height:30%;
+    margin-left:15%;
+    margin-top:4%;
+    border: none;
+    outline:none;
+    border-radius: 4px;
+
+}
+
+#registerButton{
+   width:20%;
+      margin-left: 40%;
+     background-color:white;
+    color:#d1184d;
+       border: none;
+outline: none;
+   border-radius: 12px;
+}
+
+#rqButton{
+      width:20%;
+      margin-left: 40%;
+      margin-bottom:4%;
+    background-color:#d1184d;
+        color:white;
+           border: none;
+outline: none;
+    border-radius: 12px;
+}
+
+
+#loginButton{
+    width:20%;
+      margin-left: 40%;
+    background-color:white;
+        color:#d1184d;
+           border: none;
+outline: none;
+     margin-top:2%;
+    border-radius: 12px;
+}
+
+#pkb{
+    color:#51626F;
+}
+
+#hide1{
+    display:none;
+}
+
+#eulbl{
+    color:#979FAA;
+}
+
+#continue{
+ width:20%;
+      margin-left: 40%;
+    background-color:#d1184d;
+        color:white;
+           border: none;
+outline: none;
+     margin-top:2%;
+    border-radius: 12px;
+    margin-bottom: 2%;
+}
+
+
+#loginDetails{
+    padding-top:5%;
+    text-align:center
+}
+
+::placeholder{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    font-family: belfius;
+    width:20%;
+
+       border: none;
+outline: none;
+   border-radius: 4px;
+}
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+    align-content: center;
+}
+#login {
+    background:  #d1184d;
+    width: 100%;
+    min-height: 100%;
+
+}
+
+#divButton{
+    align-content: center;
+}
+
+#hoeveelEuro,#hoeveelMaanden{
+  border-style: inset;
+}
+
+#simulatiewrap{
+   padding-bottom: 5%;
+}
+
+#req{
+    padding-top:10%;
+    padding-bottom: 33%;
+    text-align: center;
+}
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
